@@ -1,1 +1,25 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=9442634&assignment_repo_type=AssignmentRepo)
+# 108501026 assignment 3
+
+## 程式架構
+
+* 顯示棋盤
+
+* 移動
+
+* 讀檔
+
+* 計時
+
+## 備註
+
+* 將作業二部分的array改成linked list
+
+## Compile & Run
+
+```sh
+# Compile
+gcc -o main main.c -lev
+# Run
+./main -n -s NewGame.txt # New game
+./main -1 NewGame.txt # Load file
+```
